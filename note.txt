@@ -1,2 +1,25 @@
 ** Requirements for voting application! **
 
+USER Authentication:
+ /signup: POST-Create a new user account.
+ /login: POST-Login in to an existing account.
+
+
+ Voting:
+      /electors:GET - Get the list of electors.
+      /Vote/:electorId: POST:Vote for a specific elector.
+
+Vote counts:
+    /vote-counts:GET -Get the list of elector sorted by their vote counts.
+
+
+User PROFILE:
+     /profile: GET Get the users profile information.
+     /profile/password: PUT: Change the users password.
+
+Admin Elector Management:
+     /elector:POST - Create a new elector.
+     /elector/:electorId:PUT  -Update an existing elector.
+     /electors/:electorId:DELETE -Delete an elector from the list.             
+
+
