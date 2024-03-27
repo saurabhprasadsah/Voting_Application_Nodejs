@@ -1,5 +1,3 @@
-
-
 async function getData(){
     return 1;
 }
@@ -13,6 +11,5 @@ getData().then(() =>console.log("I got the data"));
 
 console.log("D");
 console.log("E");
-
 console.log("F");
 
